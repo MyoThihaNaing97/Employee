@@ -59,6 +59,7 @@ const DepartmentRegistration=()=>{
                 </table>
             </CCol>
         </CRow>
+        
         </>
     )
 }
