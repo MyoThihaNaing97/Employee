@@ -39,10 +39,9 @@ const EmployeeRegistration = (props) => {
         </CCol>
       </CRow>
       <CRow>
-        <CCol lg="3">
+        <CCol lg="3" style={{marginBottom:"20px"}}>
           <CLabel className="radioLabel">Gender *</CLabel>
         </CCol>
-      
           {radiodata.map((data, index) => {
             return (
                 <>

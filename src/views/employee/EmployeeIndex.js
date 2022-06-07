@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import EmployeeRegistration from "./EmployeeRegistration";
+import DepartmentRegistration from "./DepartmentRegistration";
 import {
   CCard,
   CCardHeader,
@@ -38,7 +39,7 @@ const EmployeeIndex = () => {
           </CCardText>
         </CCardBody>
         <CCard>
-          <CCardBody>
+          <CCardBody style={{margin:'10px'}}>
             <CCardText>
               <EmployeeRegistration
                 radiodata={gender}
@@ -49,6 +50,14 @@ const EmployeeIndex = () => {
               />
             </CCardText>
           </CCardBody>
+          <CCard>
+              <CCardHeader>Department Position</CCardHeader>
+              <CCardBody>
+                  <CCardText>
+                      <DepartmentRegistration/>
+                  </CCardText>
+              </CCardBody>
+          </CCard>
         </CCard>
       </CCard>
     </>
